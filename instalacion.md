@@ -86,7 +86,6 @@ Finalmente, ejecutamos los assets, limpiamos la caché y comprimimos los fichero
 
 Solo nos queda configurar los sites de apache y el fichero /etc/hosts para apuntar a nuestra página, que por defecto se ubica en el directorio web de nuestra aplicación.
 
-    [cli]
 
 ## Manual de usuario ##
 
