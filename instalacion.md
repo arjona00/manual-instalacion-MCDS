@@ -113,7 +113,11 @@ Una vez instalado el servicio MySQL, instalamos la base de datos MySQL db_loboro
 
 Se han seguido las instrucciones de las trasparencias de la asignatura y las versiones indicadas, luego solo será necesario iniciar los servicios en el servidor de Apache Tomcat.
 
-## Demonio ThingSpeak  ##
+La URL por defecto de nuestro servicio SOAP es la siguiente:
+
+[link](http://localhost:8080/LoboRojo/services/MainPort)
+
+## Simulador de señales ThingSpeak  ##
 
 Para iniciar el simulador de señales, hacemos click derecho sobre "com.thingspeak.test-> Main.java" Run As -> Java application.
 
