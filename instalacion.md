@@ -109,4 +109,9 @@ Una vez reiniciados los servicios de apache, la web se encontrará en las siguie
 
 ## Manual de uso ##
 
-Una vez accedemos a la url de la landing page, 
+Hay que recordar que los servicios SOAP deben estár en funcionamiento para que la web funcione correctamente.
+
+Una vez accedemos a la url de la landing page, hacemos click sobre el servicio que actualmente está en funcionamiento, es decir, Control de Amenazas -> Monitorización Sonora.
+
+Se mostrarán los registros cargados inicialmente en la base de datos. Además, se disponen varias llamadas bajo el mapa de google para ejecutar las distintas operaciones de los servicios.
+
