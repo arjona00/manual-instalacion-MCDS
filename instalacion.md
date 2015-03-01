@@ -1,11 +1,17 @@
-# Manuales en español #
+# Manuales de instalación cliente Web #
 
 En este manual, queremos indicar los pasos seguidos en la instalación de la aplicación cliente en un servidor.
 
 
-## Manual de instalación ##
+## Manual de instalación  ##
 
-En nuestro sistema, debemos tener instalado php5, mysql y apache2. Para la instalación de symfony, necesitaremos composer.
+En nuestro sistema, debemos tener instalado php5, mysql y apache2. 
+
+Recomiendo el uso del instalador WAMP si no se dispone de estos elementos instalados.
+
+[Wamp](http://www.wampserver.com/en/)
+
+Para la instalación de symfony, necesitaremos composer.
 En nuestro caso hemos utilizado las siguientes versiones:
 
 	mySQL 5.5.24
