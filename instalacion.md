@@ -1,9 +1,9 @@
-# Manuales de instalación cliente Web #
+# Manuales de instalación #
 
 En este manual, queremos indicar los pasos seguidos en la instalación de la aplicación cliente en un servidor.
 
 
-## Manual de instalación  ##
+## Manual de instalación cliente web  ##
 
 En nuestro sistema, debemos tener instalado php5, mysql y apache2. 
 
@@ -105,6 +105,8 @@ Una vez reiniciados los servicios de apache, la web se encontrará en las siguie
 [URL producción](http://local.loborojo/app.php) 
 
 [URL desarrollo](http://local.loborojo/app_dev.php)
+
+
 
 
 ## Manual de uso ##
