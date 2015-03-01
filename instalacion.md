@@ -84,8 +84,26 @@ Finalmente, ejecutamos los assets, limpiamos la caché y comprimimos los fichero
 	php app/console assetic:dump
 
 
-Solo nos queda configurar los sites de apache y el fichero /etc/hosts para apuntar a nuestra página, que por defecto se ubica en el directorio web de nuestra aplicación.
+Solo nos queda configurar los sites de apache para apuntar a nuestra página, y el fichero /etc/hosts en Linux, y C:\Windows\System32\drivers\etc\hosts en Windows para configurar el servidor de nombres. Combiar por el directorio donde se ubica en el directorio web de nuestra aplicación.
 
+    [cli]
+    #VirtualHost de Apache
+    <VirtualHost *:80>
+        ServerAdmin admin@admin.com
+        DocumentRoot "c:\wamp\www\directorioInstalacion\web"
+        ServerName local.loborojo
+        ServerAlias local.loborojo
+        ErrorLog "logs/dummy-host.example.com-error.log"
+        CustomLog "logs/dummy-host.example.com-access.log" common
+    </VirtualHost>
+    
+    #/etc/hots
+    127.0.0.1 local.loborojo
+    
+Una vez reiniciados los servicios de apache, la web se encontrará en las siguientes urls
+
+[producción](http://local.loborojo/app.php) 
+[desarrollo](http://local.loborojo/app_dev.php)
 
 ## Manual de usuario ##
 
