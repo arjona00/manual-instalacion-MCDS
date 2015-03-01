@@ -61,19 +61,6 @@ Ahora ejecutamos los fixtures, que rellenarán la base de datos con los datos in
 	[cli]
 	php app/console doctrine:fixture:load
 
-
-Ahora ya tenemos la base de datos creada y con los datos iniciales cargados, configuraremos el acceso restringido a la sección de administración.
-
-Para ello editaremos el fichero app/config/security.yml.
-
-Aquí encontramos dos roles ya creados, ROLE_ADMIN y ROLE_SUPER_ADMIN.
-
-	[yaml]
-	admin:  { password: XXXX, roles: [ 'ROLE_SUPER_ADMIN' ] }
-	profesor1: { password: XXXX, roles: [ 'ROLE_ADMIN' ] }
-
-Podemos modificar este fichero y crear tantos profesores como deseemos y/o establecer las contraseñas.
-
 Symfony usa dos directorios para la caché y logs, a los cuales tenemos que dar los siguientes permisos:
 
 	[cli]
@@ -93,6 +80,7 @@ Finalmente, ejecutamos los assets, limpiamos la caché y comprimimos los fichero
 
 Solo nos queda configurar los sites de apache y el fichero /etc/hosts para apuntar a nuestra página, que por defecto se ubica en el directorio web de nuestra aplicación.
 
+    [cli]
 
 ## Manual de usuario ##
 
