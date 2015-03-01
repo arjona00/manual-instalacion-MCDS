@@ -1,6 +1,6 @@
 # Manuales en español #
 
-En este manual, queremos indicar los pasos seguidos en la instalación de la aplicación en un servidor, así como el uso por parte del usuario y la gestión de las secciones de administración.
+En este manual, queremos indicar los pasos seguidos en la instalación de la aplicación cliente en un servidor.
 
 
 ## Manual de instalación ##
@@ -23,18 +23,7 @@ Además necesitaremos tener cargadas las extensiones php5-xsl y php5-intl.
 	sudo apt-get install php5-intl
 
 
-Primero debemos crear nuestro proyecto en un directorio del servidor. Recomendamos el uso de git para realizar esta operación, o copiando directamente nuestro directorio PFC/repo.
-
-	[cli]
-	git clone [unidad]/PFC/repo/.git directorioDestino
-
-	ó
-
-	git clone ssh://git@github.com:arjona00/learning-objects-evaluation-platform.git directorioDestino
-
-	ó
-
-	cp -R [unidad]/PFC/repo directorioDestino
+Primero debemos crear nuestro proyecto en un directorio del servidor. Extraemos el contenido de clienteWebSymfony2 en dicho directorio.
 
 Una vez situados en el directorio creado, debemos instalar nuestra aplicación. Para ello ejecutamos:
 
@@ -49,7 +38,7 @@ Cuando terminen de descargarse los vendors indicados en el fichero composer.json
     database_driver: pdo_mysql
     database_host: 127.0.0.1
     database_port: null
-    database_name: db_pfc
+    database_name: db_loboRojo
     database_user: root
     database_password: xxxxx
     mailer_transport: smtp
@@ -67,16 +56,7 @@ Si previamente no hemos creado la base de datos a través de phpmyadmin o consol
 	php app/console doctrine:schema:create
 
 
-Ahora ejecutamos los fixtures, que rellenarán la base de datos con los datos iniciales de prueba. Si se desea introducir datos finales de las asignaturas, podemos editar el fichero src/PFC/ModelBundle/DataFixtures/ORM/LoadsubjetsData.php.
-
-- arraysubjets: Datos de las asignaturas.
-
-- arraysubjetCategories: Datos de las categorías.
-
-- arrayCategorySubcategories: Datos de las subcategorías.
-
-- arrayQuestions: Preguntas y respuestas.
-
+Ahora ejecutamos los fixtures, que rellenarán la base de datos con los datos iniciales de prueba.
 
 	[cli]
 	php app/console doctrine:fixture:load
