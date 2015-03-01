@@ -11,13 +11,13 @@ Recomiendo el uso del instalador WAMP si no se dispone de estos elementos instal
 
 [Wamp](http://www.wampserver.com/en/)
 
-Para la instalación de symfony, necesitaremos composer.
 En nuestro caso hemos utilizado las siguientes versiones:
 
 	mySQL 5.5.24
 	php 5.4.3
 	apache 2.4.2
 
+Para la instalación de symfony, necesitaremos composer.
 Las instrucciones de instalación de composer podemos encontrarlas aquí:
 
 [Composer](http://getcomposer.org/)
