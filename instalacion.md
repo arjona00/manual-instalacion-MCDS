@@ -107,7 +107,17 @@ Una vez reiniciados los servicios de apache, la web se encontrará en las siguie
 [URL desarrollo](http://local.loborojo/app_dev.php)
 
 
+## Servicios SOAP y REST  ##
 
+Una vez instalado el servicio MySQL, instalamos la base de datos MySQL db_loborojo.sql que se encuentra en el directorio Servicios\Base de datos mySQL
+
+Se han seguido las instrucciones de las trasparencias de la asignatura y las versiones indicadas, luego solo será necesario iniciar los servicios en el servidor de Apache Tomcat.
+
+## Demonio ThingSpeak  ##
+
+Para iniciar el simulador de señales, hacemos click derecho sobre "com.thingspeak.test-> Main.java" Run As -> Java application.
+
+La URL del thingSpeak asociado es la siguiente [thingSpeak](https://thingspeak.com/channels/23808)
 
 ## Manual de uso ##
 
