@@ -102,8 +102,9 @@ Solo nos queda configurar los sites de apache para apuntar a nuestra página, y 
     
 Una vez reiniciados los servicios de apache, la web se encontrará en las siguientes urls
 
-[producción](http://local.loborojo/app.php) 
-[desarrollo](http://local.loborojo/app_dev.php)
+[URL producción](http://local.loborojo/app.php) 
+
+[URL desarrollo](http://local.loborojo/app_dev.php)
 
 ## Manual de usuario ##
 
