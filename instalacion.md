@@ -109,13 +109,4 @@ Una vez reiniciados los servicios de apache, la web se encontrará en las siguie
 
 ## Manual de uso ##
 
-Esta aplicación web permite al usuario realizar los cuestionarios de las asignaturas registradas y sus temas. Cada tema podrá incluir varias subcategorías de las que también podrá realizar cuestionarios.
-
-Para ello acceda a la aplicación web a través de su navegador. Seleccione la asignatura de la que desea realizar los tests, del menú Asignaturas o desde la propia página de inicio.
-
-Una vez dentro de la asignatura, puede seleccionar realizar un test de la asignatura completa, de un tema o de una de las categorías disponibles. Pulse sobre su elección.
-
-Para cada uno de los cuestionarios, pueden existir varios niveles de dificultad. Están encuadrados en niveles del 1 a 10, pero también puede realizar un cuestionario de preguntas aleatorias de cualquier nivel.
-
-Una vez hecha su elección, aparecerán en su pantalla un máximo de 10 preguntas. Responda a las preguntas y pulse enviar. Aparecerá el resultado de su test.
-
+Una vez accedemos a la url de la landing page, 
