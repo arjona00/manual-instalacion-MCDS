@@ -106,7 +106,8 @@ Una vez reiniciados los servicios de apache, la web se encontrará en las siguie
 
 [URL desarrollo](http://local.loborojo/app_dev.php)
 
-## Manual de usuario ##
+
+## Manual de uso ##
 
 Esta aplicación web permite al usuario realizar los cuestionarios de las asignaturas registradas y sus temas. Cada tema podrá incluir varias subcategorías de las que también podrá realizar cuestionarios.
 
@@ -118,66 +119,3 @@ Para cada uno de los cuestionarios, pueden existir varios niveles de dificultad.
 
 Una vez hecha su elección, aparecerán en su pantalla un máximo de 10 preguntas. Responda a las preguntas y pulse enviar. Aparecerá el resultado de su test.
 
-
-## Manual de administrador ##
-
-Como administrador de las asignaturas, tiene la responsabilidad de crearlas, crear temas en las mismas y de cada tema, tantas subcategorías como sean necesarias.
-Además se encargará de la importación y exportación de cuestiones.
-
-Para ello deberá acceder a la aplicación web desde su navegador.
-
-En el menú, pulse sobre "Administración".
-El sistema le indica que está accediendo a una zona restringida, y le solicita usuario y password.
-
-Tras introducir los datos correctamente, se mostrarán la lista de asignaturas, sus categorías y subcategorías.
-
-
-### Creación de elementos ###
-
-Para crear una nueva asignatura, solo necesita ir al final de la página y pulsar sobre "Nueva asignatura". En el cuadro de diálogo de edición, introduzca el nombre de la asignatura y pulse sobre la confirmación.
-
-Su asignatura ha sido creada. Pulse sobre el botón de recarga a la derecha de la asignatura creada y podrá ver su asignatura en la lista de asignaturas en orden alfabético. Ahora ya podrá editar sus campos.
-
-Para las categorías y subcategorías el mecanismo es similar. Vaya al final de la lista de temas de una asignatura. Pulse "Nuevo tema". Introduzca el nombre del tema y confirme. Luego pulse el botón de recarga a la derecha del nombre introducido, y verá que su tema se ha creado, y que los campos editables del tema, su título y descripción, ya están disponibles para su edición.
-
-
-### Edición de elementos ###
-
-La edición se produce directamente a través del formulario de edición de cualquier campo editable seleccionado. Pulse sobre el campo a editar. Se abrirá un cuadro de diálogo, realice su modificación y pulse sobre el botón de confirmación. Sus datos se actualizarán de forma inmediata.
-
-
-### Eliminación de elementos ###
-
-Para eliminar cualquier elemento pulse sobre el botón eliminar (una x blanca sobre fondo rojo). Recuerde que al eliminar cualquier elemento, elimina todas las estructuras que estén relacionadas con la misma. (P. ejem: Borrar una asignatura, elimina también las categorías, subcategorías, preguntas y respuestas relacionadas con dicha asignatura)
-
-Confirme la eliminación del elemento en el cuadro de diálogo.
-
-
-### Importación y exportación de cuestiones ###
-
-#### Exportación ####
-
-La exportación puede realizarse sobre cualquier elemento contenedor de preguntas, asignaturas, categorías y subcategorías.
-
-Desde la lista de administración de asignaturas, pulse sobre el botón de edición del elemento seleccionado (flecha > blanca con fondo azul).
-
-Esto nos llevará a la zona de importación y exportación.
-
-Para realizar la exportación, escoja el tipo de formato a exportar y pulse el botón "Exportar".
-
-Opcionalmente puede escoger un nivel determinado para las preguntas a exportar, y un número de preguntas máximo a exportar.
-
-
-#### Importación ####
-
-La importación se realiza en cualquier subcategoría. Desde la lista de administración de asignaturas, pulse sobre el botón de edición del elemento seleccionado (flecha > blanca con fondo azul).
-
-Esto nos llevará a la zona de importación y exportación.
-
-Pulse sobre importar.
-
-En esta nueva página, seleccione el tipo de formato a importar. Luego pulse sobre "Seleccionar fichero".
-
-Nos abrirá un cuadro de diálogo para seleccionar nuestro fichero a importar.
-
-Una vez subido, pulse sobre "Procesar fichero". Si el fichero cumple las condiciones de tipo de fichero y formato, el fichero se procesará y las preguntas serán importadas en la subcategoría elegida.
