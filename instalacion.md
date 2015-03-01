@@ -131,7 +131,7 @@ La URL del thingSpeak asociado es la siguiente [link](https://thingspeak.com/cha
 
 ## Servicio ESB Mule con Anypoint ##
 
-Nos remitimos a las instrucciones de uso de las transparencias suministradas por el profesorado de la asignatura.
+Nos remitimos a las instrucciones suministradas por el profesorado de la asignatura.
 
 
 ## Manual de uso ##
