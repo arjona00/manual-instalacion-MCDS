@@ -117,7 +117,7 @@ Se han seguido las instrucciones de las trasparencias de la asignatura y las ver
 
 Para iniciar el simulador de señales, hacemos click derecho sobre "com.thingspeak.test-> Main.java" Run As -> Java application.
 
-La URL del thingSpeak asociado es la siguiente [thingSpeak](https://thingspeak.com/channels/23808)
+La URL del thingSpeak asociado es la siguiente [link](https://thingspeak.com/channels/23808)
 
 ## Manual de uso ##
 
