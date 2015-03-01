@@ -119,7 +119,9 @@ La URL por defecto de nuestro servicio SOAP es la siguiente:
 
 
 La URL por defecto de nuestro servicio REST es el siguiente:
+
 [link](http://localhost:8080/LoboRojoRest/natural-reserve)
+
 
 ## Simulador de señales ThingSpeak  ##
 
@@ -127,11 +129,16 @@ Para iniciar el simulador de señales, hacemos click derecho sobre "com.thingspe
 
 La URL del thingSpeak asociado es la siguiente [link](https://thingspeak.com/channels/23808)
 
+## Servicio ESB Mule con Anypoint ##
+
+Nos remitimos a las instrucciones de uso de las transparencias suministradas por el profesorado de la asignatura.
+
+
 ## Manual de uso ##
 
 Hay que recordar que los servicios SOAP deben estár en funcionamiento para que la web funcione correctamente.
 
-Una vez accedemos a la url de la landing page, hacemos click sobre el servicio que actualmente está en funcionamiento, es decir, Control de Amenazas -> Monitorización Sonora.
+Una vez accedemos a la url de la landing page de nuestro cliente web, hacemos click sobre el servicio que actualmente está en funcionamiento, es decir, Control de Amenazas -> Monitorización Sonora.
 
 Se mostrarán los registros cargados inicialmente en la base de datos. Además, se disponen varias llamadas bajo el mapa de google para ejecutar las distintas operaciones de los servicios.
 
