@@ -117,6 +117,10 @@ La URL por defecto de nuestro servicio SOAP es la siguiente:
 
 [link](http://localhost:8080/LoboRojo/services/MainPort)
 
+
+La URL por defecto de nuestro servicio REST es el siguiente:
+[link](http://localhost:8080/LoboRojoRest/natural-reserve)
+
 ## Simulador de señales ThingSpeak  ##
 
 Para iniciar el simulador de señales, hacemos click derecho sobre "com.thingspeak.test-> Main.java" Run As -> Java application.
